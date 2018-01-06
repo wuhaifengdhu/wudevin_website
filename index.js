@@ -47,7 +47,7 @@ new Wolf().monitor(app, 'wolf', '/wechat');
 // 在环境变量提供的 $PORT 或 3000 端口监听
 var port = process.env.PORT || 80
 app.listen(port, function(){
-    log("Listening on %s", port);
+    console.log("Listening on %s", port);
 })
 
 // 微信接口地址只允许服务放在 80 端口
