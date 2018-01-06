@@ -21,7 +21,7 @@ app.use(expressSession({
 }));
 
 function generate_user_page(res, userid){
-    new_url = "https://qr.alipay.com/" + req.params.userid;
+    new_url = "https://qr.alipay.com/" + userid;
     res.render("template", {new_url : new_url});
     console.log('redirect new url is  ' + new_url);
 }
