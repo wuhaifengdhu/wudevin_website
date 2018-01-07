@@ -1,0 +1,288 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */* {
+	box-sizing: border-box
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+	color: #333
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+	display: block
+}
+
+audio,canvas,progress,video {
+	display: inline-block;
+	vertical-align: baseline
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0
+}[hidden],template {
+	display: none
+}
+
+a {
+	background-color: transparent
+}
+
+a,a:active,a:hover {
+	outline: 0;
+	text-decoration: none
+}
+
+abbr[title] {
+	border-bottom: 1px dotted
+}
+
+b,strong {
+	font-weight: 700
+}
+
+dfn {
+	font-style: italic
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0
+}
+
+mark {
+	background: #ff0;
+	color: #000
+}
+
+small {
+	font-size: 80%
+}
+
+sub,sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+
+sup {
+	top: -.5em
+}
+
+sub {
+	bottom: -.25em
+}
+
+img {
+	border: 0
+}
+
+svg:not(:root) {
+	overflow: hidden
+}
+
+figure {
+	margin: 1em 40px
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0
+}
+
+pre {
+	overflow: auto
+}
+
+code,kbd,pre,samp {
+	font-family: monospace,monospace;
+	font-size: 1em
+}
+
+button,input,optgroup,select,textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0
+}
+
+input,textarea {
+	outline: none
+}
+
+button {
+	overflow: visible
+}
+
+button,select {
+	text-transform: none
+}
+
+button,html input[type=button],input[type=reset],input[type=submit] {
+	-webkit-appearance: button;
+	cursor: pointer
+}
+
+button[disabled],html input[disabled] {
+	cursor: default
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+input {
+	line-height: normal
+}
+
+input[type=checkbox],input[type=radio] {
+	box-sizing: border-box;
+	padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+	height: auto
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+
+fieldset {
+	border: 1px solid silver;
+	margin: 0 2px;
+	padding: .35em .625em .75em
+}
+
+legend {
+	border: 0;
+	padding: 0
+}
+
+textarea {
+	overflow: auto
+}
+
+optgroup {
+	font-weight: 700
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+td,th {
+	padding: 0
+}
+
+ul {
+	list-style-type: none
+}
+
+*,ul {
+	margin: 0;
+	padding: 0
+}
+
+html {
+	background-color: #f7f7f7
+}
+
+#shengming {
+	color: #bbb;
+	font-size: 12px;
+	margin: 20px
+}
+
+#content {
+	padding: 30px 0 100px;
+	background-size: cover;
+	background-image: url(https://img.alicdn.com/tps/TB1h9xxIFXXXXbKXXXXXXXXXXXX.jpg)
+}
+
+#content h2 {
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 2px hsla(0,0%,100%,.25)
+}
+
+#content h5 {
+	color: hsla(0,0%,100%,.75);
+	text-shadow: 1px 1px 2px rgba(0,0,0,.25)
+}
+
+#content #button,#content h5 {
+	text-align: center;
+	margin: 30px auto
+}
+
+#content #button {
+	display: none;
+	width: 300px
+}
+
+#content #button span:first-child {
+	margin-right: 20px
+}
+
+#content #button span {
+	display: inline-block;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #dcdfe6;
+	border-color: #dcdfe6;
+	color: #606266;
+	-webkit-appearance: none;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+	margin: 0;
+	transition: .1s;
+	font-weight: 500;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	padding: 12px 20px;
+	font-size: 14px;
+	border-radius: 4px
+}
+
+#content #button .primary {
+	color: #fff;
+	background-color: #409eff;
+	border-color: #409eff
+}
+
+#content #preview {
+	cursor: pointer;
+	border: 1px solid #fff;
+	background-color: #fff;
+	max-width: 280px;
+	min-height: 180px;
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 100px
+}
+
+#content #preview img {
+	display: block;
+	width: 120px;
+	margin: 80px
+}
